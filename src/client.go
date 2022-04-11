@@ -4,7 +4,7 @@ package main
  * @Description:
  * @Author: Liuhongq
  * @Date: 2022-04-09 06:07:36
- * @LastEditTime: 2022-04-11 20:12:22
+ * @LastEditTime: 2022-04-11 20:13:31
  * @LastEditors: Liuhongq
  * @Reference:
  */
@@ -19,7 +19,7 @@ const MAX_CHARS = 1024 // 最大字符串长度
 
 func main() {
 	// 主动连接服务器
-	dialler, err := net.Dial("tcp", "127.0.0.1:8001")
+	dialler, err := net.Dial("tcp", "127.0.0.1:8010")
 	if err != nil {
 		fmt.Println("err =", err)
 		return
